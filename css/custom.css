@@ -23,6 +23,21 @@
     color: #313131;
     -webkit-animation: colorchange 30s infinite alternate;
 }
+.arrow-first{
+  opacity: 0;
+  -webkit-animation: fadeIn 5s infinite alternate;
+}
+.arrow-second{
+  opacity: 0;
+  animation-delay: 3s;
+  -webkit-animation: fadeIn 5s infinite alternate;
+  -webkit-animation-delay: 1s;
+}
+.arrow-third{
+  opacity: 0;
+  -webkit-animation: fadeIn 5s infinite alternate;
+  -webkit-animation-delay: 2s;
+}
 
 @-webkit-keyframes colorchange {
     0% {
@@ -58,5 +73,9 @@
     100% {
         color: #52CCE4;
     }
->>>>>>> f9364f854098f73bec7598ddfbad4d0e094fb9fc
+
+}
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
 }
