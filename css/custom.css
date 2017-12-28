@@ -15,44 +15,48 @@
     font-weight: 900;
 }
 
+.lightblue {
+    color: #52CCE4;
+}
+
 .need {
     color: #313131;
-    -webkit-animation: colorchange 20s infinite alternate;
+    -webkit-animation: colorchange 30s infinite alternate;
 }
 
 @-webkit-keyframes colorchange {
     0% {
-        color: blue;
+        color: #52CCE4;
     }
     10% {
-        color: #8e44ad;
+        color: #4270FA;
     }
     20% {
-        color: #1abc9c;
+        color: #52CCE4;
     }
     30% {
-        color: #d35400;
+        color: #4270FA;
     }
     40% {
-        color: blue;
+        color: #52CCE4;
     }
     50% {
-        color: #34495e;
+        color: #4270FA;
     }
     60% {
-        color: blue;
+        color: #52CCE4;
     }
     70% {
-        color: #2980b9;
+        color: #4270FA;
     }
     80% {
-        color: #f1c40f;
+        color: #52CCE4;
     }
     90% {
-        color: #2980b9;
+        color: #4270FA;
     }
     100% {
-        color: pink;
+        color: #52CCE4;
     }
 >>>>>>> f9364f854098f73bec7598ddfbad4d0e094fb9fc
 }
