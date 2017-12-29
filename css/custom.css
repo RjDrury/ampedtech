@@ -9,8 +9,8 @@ title-image {
 }
 
 .main-nav {
-    <<<<<<< HEAD padding: px 10px 10px;
-    =======background-color: #4778FE
+    padding: px 10px 10px;
+    background-color: #4778FE
 }
 
 .thicker {
@@ -42,6 +42,10 @@ title-image {
     opacity: 0;
     -webkit-animation: fadeIn 5s infinite alternate;
     -webkit-animation-delay: 2s;
+}
+
+.robbuttonfix {
+    background: transparent !important;
 }
 
 @-webkit-keyframes colorchange {

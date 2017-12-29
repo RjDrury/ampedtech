@@ -64,11 +64,11 @@ body {
     line-height: 40px;
     padding: 0 30px;
     border-radius: 20px;
-    background: transparent;
+    background: $white;
     border: 1px solid $white;
     color: $title-color;
     display: inline-block;
-    font-weight: 500;
+    font-weight: 900;
     position: relative;
     @include transition();
     cursor: pointer;
@@ -149,8 +149,6 @@ body {
         }
     }
 }
-
-
 
 .working-process-area {
     background: $white;
@@ -415,25 +413,25 @@ body {
 }
 
 .contact-form {
-    ::-webkit-input-placeholder {
+     ::-webkit-input-placeholder {
         color: #fff;
         font-weight: 300;
     }
-    :-moz-placeholder {
-        color: #fff;
-        opacity: 1;
-        font-weight: 300;
-    }
-    ::-moz-placeholder {
+     :-moz-placeholder {
         color: #fff;
         opacity: 1;
         font-weight: 300;
     }
-    :-ms-input-placeholder {
+     ::-moz-placeholder {
+        color: #fff;
+        opacity: 1;
+        font-weight: 300;
+    }
+     :-ms-input-placeholder {
         color: #fff;
         font-weight: 300;
     }
-    ::-ms-input-placeholder {
+     ::-ms-input-placeholder {
         color: #fff;
         font-weight: 300;
     }
