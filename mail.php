@@ -1,5 +1,5 @@
 <?php
-    $to = 'rdrury1513@gmail.com';
+    $to = 'contact@ampedtech.ca';
     $firstname = $_POST["fname"];
     $email= $_POST["email"];
     $text= $_POST["message"];
