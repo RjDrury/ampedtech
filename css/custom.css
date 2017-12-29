@@ -7,9 +7,12 @@
 .title-image {
     background-image: url(/ampedtech/img/hero-bg.png);
     background-repeat: no-repeat;
-    height: 450px;
+    background-size: cover;
     position: relative;
-    padding-bottom: 20px;
+}
+
+.robdiv {
+    height: 450px;
 }
 
 .main-nav {
