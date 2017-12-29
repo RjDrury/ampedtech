@@ -5,10 +5,15 @@
 }
 
 .title-image {
-    background-image: url(/ampedtech/img/hero-bg.png);
+    background-image: url(/AmpedTech/img/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    align-content: right;
+}
+
+.padlogo {
+    padding: 15px;
 }
 
 .robdiv {
