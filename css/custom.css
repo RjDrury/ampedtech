@@ -4,7 +4,29 @@
     margin-bottom: 35px;
 }
 
+.title-image {
+    background-image: url(/AmpedTech/img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-content: right;
+}
+
+.padlogo {
+    padding: 15px;
+
+}
+
+.main-pad {
+    padding-top: 55px;
+}
+
+.robdiv {
+    height: 450px;
+}
+
 .main-nav {
+    padding: px 10px 10px;
     background-color: #4778FE
 }
 
@@ -19,6 +41,28 @@
 .need {
     color: #313131;
     -webkit-animation: colorchange 30s infinite alternate;
+}
+
+.arrow-first {
+    opacity: 0;
+    -webkit-animation: fadeIn 5s infinite alternate;
+}
+
+.arrow-second {
+    opacity: 0;
+    animation-delay: 3s;
+    -webkit-animation: fadeIn 5s infinite alternate;
+    -webkit-animation-delay: 1s;
+}
+
+.arrow-third {
+    opacity: 0;
+    -webkit-animation: fadeIn 5s infinite alternate;
+    -webkit-animation-delay: 2s;
+}
+
+.robbuttonfix {
+    background: transparent !important;
 }
 
 @-webkit-keyframes colorchange {
@@ -54,5 +98,14 @@
     }
     100% {
         color: #52CCE4;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
