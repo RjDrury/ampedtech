@@ -1,20 +1,14 @@
 /*--------------------------- Color variations ----------------------*/
 
-
 /* Medium Layout: 1280px */
-
 
 /* Tablet Layout: 768px */
 
-
 /* Mobile Layout: 320px */
-
 
 /* Wide Mobile Layout: 480px */
 
-
 /* =================================== */
-
 
 /*  Basic Style 
 /* =================================== */
@@ -1381,7 +1375,7 @@ h6 {
     cursor: pointer;
 }
 
-.default-switch input+label {
+.default-switch input + label {
     position: absolute;
     top: 1px;
     left: 1px;
@@ -1397,7 +1391,7 @@ h6 {
     cursor: pointer;
 }
 
-.default-switch input:checked+label {
+.default-switch input:checked + label {
     left: 19px;
 }
 
@@ -1421,7 +1415,7 @@ h6 {
     opacity: 0;
 }
 
-.primary-switch input+label {
+.primary-switch input + label {
     position: absolute;
     left: 0;
     top: 0;
@@ -1431,7 +1425,7 @@ h6 {
     height: 100%;
 }
 
-.primary-switch input+label:before {
+.primary-switch input + label:before {
     content: "";
     position: absolute;
     left: 0;
@@ -1449,7 +1443,7 @@ h6 {
     transition: all 0.2s;
 }
 
-.primary-switch input+label:after {
+.primary-switch input + label:after {
     content: "";
     position: absolute;
     top: 1px;
@@ -1466,11 +1460,11 @@ h6 {
     cursor: pointer;
 }
 
-.primary-switch input:checked+label:after {
+.primary-switch input:checked + label:after {
     left: 19px;
 }
 
-.primary-switch input:checked+label:before {
+.primary-switch input:checked + label:before {
     background: #3e69fe;
 }
 
@@ -1494,7 +1488,7 @@ h6 {
     opacity: 0;
 }
 
-.confirm-switch input+label {
+.confirm-switch input + label {
     position: absolute;
     left: 0;
     top: 0;
@@ -1504,7 +1498,7 @@ h6 {
     height: 100%;
 }
 
-.confirm-switch input+label:before {
+.confirm-switch input + label:before {
     content: "";
     position: absolute;
     left: 0;
@@ -1522,7 +1516,7 @@ h6 {
     cursor: pointer;
 }
 
-.confirm-switch input+label:after {
+.confirm-switch input + label:after {
     content: "";
     position: absolute;
     top: 1px;
@@ -1539,11 +1533,11 @@ h6 {
     cursor: pointer;
 }
 
-.confirm-switch input:checked+label:after {
+.confirm-switch input:checked + label:after {
     left: 19px;
 }
 
-.confirm-switch input:checked+label:before {
+.confirm-switch input:checked + label:before {
     background: #4cd3e3;
 }
 
@@ -1567,7 +1561,7 @@ h6 {
     opacity: 0;
 }
 
-.primary-checkbox input+label {
+.primary-checkbox input + label {
     position: absolute;
     left: 0;
     top: 0;
@@ -1580,7 +1574,7 @@ h6 {
     border: 1px solid #f1f1f1;
 }
 
-.primary-checkbox input:checked+label {
+.primary-checkbox input:checked + label {
     background: url(../img/elements/primary-check.png) no-repeat center center/cover;
     border: none;
 }
@@ -1605,7 +1599,7 @@ h6 {
     opacity: 0;
 }
 
-.confirm-checkbox input+label {
+.confirm-checkbox input + label {
     position: absolute;
     left: 0;
     top: 0;
@@ -1618,7 +1612,7 @@ h6 {
     border: 1px solid #f1f1f1;
 }
 
-.confirm-checkbox input:checked+label {
+.confirm-checkbox input:checked + label {
     background: url(../img/elements/success-check.png) no-repeat center center/cover;
     border: none;
 }
@@ -1643,7 +1637,7 @@ h6 {
     opacity: 0;
 }
 
-.disabled-checkbox input+label {
+.disabled-checkbox input + label {
     position: absolute;
     left: 0;
     top: 0;
@@ -1661,7 +1655,7 @@ h6 {
     z-index: 3;
 }
 
-.disabled-checkbox input:checked+label {
+.disabled-checkbox input:checked + label {
     background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
     border: none;
 }
@@ -1686,7 +1680,7 @@ h6 {
     opacity: 0;
 }
 
-.primary-radio input+label {
+.primary-radio input + label {
     position: absolute;
     left: 0;
     top: 0;
@@ -1699,7 +1693,7 @@ h6 {
     border: 1px solid #f1f1f1;
 }
 
-.primary-radio input:checked+label {
+.primary-radio input:checked + label {
     background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
     border: none;
 }
@@ -1724,7 +1718,7 @@ h6 {
     opacity: 0;
 }
 
-.confirm-radio input+label {
+.confirm-radio input + label {
     position: absolute;
     left: 0;
     top: 0;
@@ -1737,7 +1731,7 @@ h6 {
     border: 1px solid #f1f1f1;
 }
 
-.confirm-radio input:checked+label {
+.confirm-radio input:checked + label {
     background: url(../img/elements/success-radio.png) no-repeat center center/cover;
     border: none;
 }
@@ -1762,7 +1756,7 @@ h6 {
     opacity: 0;
 }
 
-.disabled-radio input+label {
+.disabled-radio input + label {
     position: absolute;
     left: 0;
     top: 0;
@@ -1780,7 +1774,7 @@ h6 {
     z-index: 3;
 }
 
-.disabled-radio input:checked+label {
+.disabled-radio input:checked + label {
     background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
     border: none;
 }
@@ -1942,9 +1936,7 @@ nav {
         text-align: right;
         padding: 20px 0;
         z-index: 5;
-        background-image: -moz-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
-        background-image: -webkit-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
-        background-image: -ms-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
+
     }
 }
 
