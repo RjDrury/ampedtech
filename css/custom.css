@@ -17,10 +17,15 @@
 
 }
 
+.blue-text-list {
+    color: #4270FA;
+    font-weight: 500;
+}
+
 .ordered-list-rob {
     list-style-type: decimal-leading-zero;
     color: #3e69fe;
-    
+
 }
 
 .main-pad {
